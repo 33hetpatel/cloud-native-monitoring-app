@@ -1,37 +1,22 @@
-# Cloud Native Resource Monitoring Python App on Kubernetes (K8s)
+Key Learnings from the Cloud Native Resource Monitoring Python App on K8s Project:
 
-This project demonstrates the creation of a cloud-native resource monitoring application using Python, Flask, and psutil. The application provides real-time monitoring of system resources such as CPU usage, memory usage, disk usage, and network activity. It is containerized with Docker and can be deployed on a Kubernetes cluster.
+Developed a monitoring application in Python using Flask and psutil, gaining hands-on experience in Python programming and web application development.
 
-Key Features
+Acquired knowledge of Docker and containerization by creating a Dockerfile, building a Docker image, and running a Python application in a Docker container.
 
-Real-time monitoring of system resources (CPU, memory, disk, and network)
+Learned how to leverage AWS services, specifically Amazon Elastic Container Registry (ECR), to store and manage Docker images, including creating an ECR repository and pushing Docker images to ECR.
 
-Web-based user interface built with Flask and Plotly
+Gained practical experience with Kubernetes by creating an Amazon Elastic Kubernetes Service (EKS) cluster, setting up node groups, and deploying the Python application on Kubernetes.
 
-Dockerized application for easy deployment and scalability
+Demonstrated proficiency in automating cloud infrastructure using Python and the Boto3 library, including creating ECR repositories and interacting with AWS services programmatically.
 
-Integration with AWS Elastic Container Registry (ECR) for storing the Docker image
+Developed an understanding of the DevOps principles and practices, such as continuous integration and delivery (CI/CD) using Docker and Kubernetes, ensuring efficient and scalable deployment of cloud-native applications.
 
-Deployment on AWS Elastic Kubernetes Service (EKS) cluster using Python scripts
-Prerequisites
+Acquired knowledge of cloud-native monitoring and observability, including metrics, logging, and performance analysis, using tools like Prometheus, Grafana, and Kubernetes monitoring features.
 
-Before starting the project, ensure that you have the following:
+Demonstrated skills in infrastructure-as-code (IaC) by using Python to create Kubernetes deployments and services, enabling streamlined and automated deployment and management of containerized applications.
 
-AWS Account with programmatic access and AWS CLI configured
+Developed proficiency in working with AWS CLI, Docker, Kubectl, and other essential tools for cloud-native application development and deployment.
 
-Python 3 installed
-
-Docker and Kubectl installed
-
-Code editor (e.g., VSCode)
-
-Project Structure
-
-app.py: Flask application code for resource monitoring
-
-Dockerfile: Dockerfile for containerizing the Flask application
-requirements.txt: List of Python dependencies
-
-eks.py: Python script for creating EKS cluster and deploying the application
-README.md: Project documentation
+Enhanced problem-solving and troubleshooting skills by addressing challenges related to building, deploying, and monitoring cloud-native applications in a distributed and dynamic environment.
 
